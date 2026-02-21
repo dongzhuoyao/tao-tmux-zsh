@@ -41,7 +41,6 @@ Personal dotfiles for tmux and zsh.
 - Gruvbox dark color scheme
 - Mouse support (toggle with `prefix + m`)
 - Focused pane highlighting
-- Bell notifications (for Claude Code hooks)
 - True color (24-bit) support
 - macOS clipboard integration (`prefix + y`)
 - 50K scrollback history
