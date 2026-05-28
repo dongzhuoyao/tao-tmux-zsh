@@ -127,3 +127,13 @@ echo -e "\e[?12h"
 export PATH=/Users/taohu/.opencode/bin:$PATH
 
 alias claudedsp="claude --dangerously-skip-permissions"
+alias brevtao="ssh brevtao"
+
+# bun completions
+[ -s "/Users/taohu/.bun/_bun" ] && source "/Users/taohu/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias claude-mem='/Users/taohu/.bun/bin/bun "/Users/taohu/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
